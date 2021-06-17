@@ -61,7 +61,8 @@ body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
             margin-top:70px;
             position: absolute;
             text-align: center;
-            
+            border-bottom-right-radius:5px ;
+            border-bottom-left-radius:5px ;
         }
         .links{display: block;  }
     li{padding-bottom: 20px;}  
