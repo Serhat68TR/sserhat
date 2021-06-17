@@ -6,7 +6,7 @@ html, body {
 .sayfa{width:1200px; height: 1500px;  margin:auto; }
 .ustkutu{width:1200px; height: 500px; float: left;}
 .solkutu{width:600px; height: 495px; float: left;   }
-
+.sayfa a{text-decoration: none; color: #000;}
 .solkutuyazi{text-align: center; position: absolute; width: 600px; height: 90px; float: left; font-size: 30px;  color:white; padding-top: 25px; border-radius:0 0 5px 5px;  border-top:ridge; background-image: linear-gradient(to right, rgb(1, 58, 133) , rgba(10, 164, 202, 0.753)); margin-top:405px;  }
 .solkutu img {width: 100%; height: 100%; border-radius: 5px;}
 .sagkutular{width:295px; height: 245px; float: left; margin-left:5px; margin-bottom: 5px; }
@@ -24,10 +24,11 @@ html, body {
 .ortasolkutular a{text-decoration: none; color:#000;}
 .ortasolkutular:hover{transform: scale(1.1);}
 .altkutular:hover{transform: scale(1.1);}
+
 .ortasolkutular img {width: 100%; height: 250px; border-radius: 15px;}
 .ortasolmetin{width: 100%; height:40px; float: left; font-size: 20px;  }
 .ortasolyazi{width: 100%; height: 60px; float: left; font-size:18px; margin-bottom: 10px; }
-.sagalan{width: 300px; height: 1000px; float: left; margin-top:100px; background-color: rgba(228, 228, 228, 0.63); border-radius: 15px; }
+.sagalan{width: 300px; height: 1000px; float: left; margin-top:100px; background-color: rgba(241, 241, 241, 0.63); border-radius: 15px; }
 .degerliicerikler{width: 100%; height: auto; font-size: 25px; float: left; text-align: center; margin-top:20px;}
 .fa-star{color:rgb(233, 233, 1);}
 .degerliicerik{float: left; width:90%; margin-left: 5%; height: 170px; margin-top:20px;}
@@ -94,6 +95,7 @@ html, body {
    
    .degerliicerik{height: 220px;}
    .degerliicerik img {height: 220px;}
+   .sagalan{display: none;}
 }
 
 @media only screen and (max-width:500px)
@@ -115,6 +117,8 @@ html, body {
    .degerliicerik{height: 100%;}
    .degerliicerik img {height: 100%;}
    .ortasolyazi{height: 90px;}
+
+   .sagalan{display: none;}
    #telifhakki{font-size:15px;}
    #gizlilik{font-size:15px;}
 }
