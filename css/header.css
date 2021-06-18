@@ -56,13 +56,22 @@ body{font-family: Verdana, Geneva, Tahoma, sans-serif;}
         .kirmizikutu {
           background-color: #364F6B;
             display: block;
-        
+          
             width: 100%;
-            margin-top:70px;
+        
             position: absolute;
             text-align: center;
             border-bottom-right-radius:5px ;
             border-bottom-left-radius:5px ;
+
+            animation: mymove 2s both;
+           
+    
+        }
+        @keyframes mymove {
+          from {top: 0px;}
+          to {top: 70px;}
+          
         }
         .links{display: block;  }
     li{padding-bottom: 20px;}  
